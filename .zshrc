@@ -14,8 +14,8 @@ fi
 # Initialize modules.
 source ${ZIM_HOME}/init.zsh
 
-# save history to .zsh_history
-export HISTFILE=~/.zsh_history
+# specify to/from where to save/restore history
+export HISTFILE=/command_history/.zsh_history
 
 alias la='ls -a'
 
